@@ -3,7 +3,7 @@ import subprocess
 
 subprocess.Popen(
     ["cmd", "/c", "start", "cmd", "/k", f"python3 receiver.py"],
-    shell=False
+    shell = True
 )
 
 i = 0
